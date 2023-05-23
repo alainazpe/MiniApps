@@ -6,6 +6,10 @@ $(document).ready(function() {
 	$('#calculoAncho').keyboard({type:'tel'});
 	$('#calculoAlto').keyboard({type:'tel'});
 
+	posicionarLabelRange = function () {$('#labelRange').attr('style','margin-left:' + $("#range").position().left + 'px');}
+
+	window.onresize = function() {posicionarLabelRange();}
+
 	function detect(){
 
 	    $("#calculoAncho").val(Number($('#labelRange').html()) / 100 * Number($('#ancho').val()));
