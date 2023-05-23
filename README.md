@@ -4,26 +4,33 @@ MiniApps For Fun
 
 Esta aplicación utiliza:
 
-- alainazp/Calculadora dimensiones 
+ alainazp/Calculadora dimensiones 
+
 MIT License
 
-- mafu-d/jqbtk
+ mafud/jqbtk
+ 
 GNU GENERAL PUBLIC LICENSE
 
-- bradtraversy/50projects50days
+ bradtraversy/50projects50days
 MobileTabNavigation
 CustomRangeSlider
+
 The MIT License
-Copyright (c) 2020-2021 Traversy Media https://traversymedia.com
+Copyright (c) 20202021 Traversy Media https://traversymedia.com
 
-- JQuery
-- MIT License
+ JQuery
+ 
+ MIT License
 
-- Bootstrap 3
-- MIT License
+ Bootstrap 3
+ 
+ MIT License
 
-- Font Awesome Free 5.14.0
-by @fontawesome - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ Font Awesome Free 5.14.0
+by @fontawesome 
+
+https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 
 
 
