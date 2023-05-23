@@ -19,8 +19,12 @@ input{
 
     position:absolute;
     margin-left:20px;
+    width:100%;
+   text-align:center;
+   
 }
 
+#range {display:initial !important;}
 
 h4{
     background-color: white;
@@ -73,3 +77,62 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .phone{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        .phone{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .phone{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 792px) {
+        .phone{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1025px) {
+        .phone{
+    position:relative;
+        height: 600px;
+    width: 340px;
+}
+
+    }
+
