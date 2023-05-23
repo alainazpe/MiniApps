@@ -1,6 +1,8 @@
 # MiniApps
 MiniApps For Fun
 
+Try it! https://alainazpe.github.io/MiniApps/
+
 Home:
 
 ![1](https://github.com/alainazpe/MiniApps/assets/34461201/bdb5d1f3-c17f-4f25-a945-12171a50b07f)
