@@ -38,9 +38,9 @@ range2.addEventListener('input', (e) => {
     for (i=1;i<=10;i++) { 
         if (i<=2){z=i} else {z=z*2}
         actual = document.getElementById('m1s' + z);
-        actual.getElementsByClassName('tiempo')[0].innerHTML = ((BPM/60)/z*1000).toFixed(2) + "<i> ms</i>";
-        actual.getElementsByClassName('puntillo')[0].innerHTML = (((BPM/60)/z*1000) + (((BPM/60)/z*1000)/2)).toFixed(2) + "<i> ms</i>";
-        actual.getElementsByClassName('tresillo')[0].innerHTML = 2*((((BPM/60)/z*1000) / 3)).toFixed(2) + "<i> ms</i>";
+        actual.getElementsByClassName('tiempo')[0].innerHTML = ((4*(60000/BPM))/z).toFixed(2) + "<i> ms</i>";
+        actual.getElementsByClassName('puntillo')[0].innerHTML = (((4*(60000/BPM))/z) + ((2*(60000/BPM))/z)).toFixed(2) + "<i> ms</i>";
+        actual.getElementsByClassName('tresillo')[0].innerHTML = (((8*(60000/BPM))/z)/3).toFixed(2) + "<i> ms</i>";
         
     }
 
