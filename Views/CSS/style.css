@@ -9,6 +9,11 @@ body{
 
 }
 
+#phone{
+    position: fixed;
+    height:100%;
+}
+
 
 input{
     text-align: center;
@@ -37,10 +42,15 @@ h4{
 
 }
 
+th, td {
+  padding: 4px !important;
+}
+
 .titulos {
     background-color:powderblue;
     font-weight: bolder;
      width:fit-content;
+     user-select: none;
 }
 
 
@@ -58,6 +68,20 @@ h4{
     color:white;
 
 }
+
+.tiempo{
+    text-align: right;
+}
+
+.puntillo{
+    text-align: right;
+}
+
+.tresillo{
+    text-align: right;
+}
+
+
 #Inicio{
     background-image:url("https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80");
 

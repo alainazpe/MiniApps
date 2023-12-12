@@ -6,14 +6,14 @@ $(document).ready(function() {
 	$('#calculoAncho').keyboard({type:'tel'});
 	$('#calculoAlto').keyboard({type:'tel'});
 
-	posicionarLabelRange = function () {$('#labelRange').attr('style','margin-left:' + $("#range").position().left + 'px');}
+	posicionarLabelRange = function () {$('#labelRange1').attr('style','margin-left:' + $("#range1").position().left + 'px');}
 
 	window.onresize = function() {posicionarLabelRange();}
 
 	function detect(){
 
-	    $("#calculoAncho").val(Number($('#labelRange').html()) / 100 * Number($('#ancho').val()));
-	    $("#calculoAlto").val(Number($('#labelRange').html()) / 100 * Number($('#alto').val()));
+	    $("#calculoAncho").val(Number($('#labelRange1').html()) / 100 * Number($('#ancho').val()));
+	    $("#calculoAlto").val(Number($('#labelRange1').html()) / 100 * Number($('#alto').val()));
 
 	    proporcion = (Number($('#ancho').val()) / Number($('#alto').val()));
 
@@ -37,9 +37,9 @@ $(document).ready(function() {
 				100 / AltoEntreCalculado
 			);
 		
-		$("#range").val(rangoCalculo);
-		$("#labelRange").html(rangoCalculo);
-		range.dispatchEvent(new Event('input', {bubbles:true}));
+		$("#range1").val(rangoCalculo);
+		$("#labelRange1").html(rangoCalculo);
+		range1.dispatchEvent(new Event('input', {bubbles:true}));
 
 	} else {
 		//cambiaAncho
@@ -52,9 +52,9 @@ $(document).ready(function() {
 				100 / AltoEntreCalculado
 			);
 		
-		$("#range").val(rangoCalculo);
-		$("#labelRange").html(rangoCalculo);
-		range.dispatchEvent(new Event('input', {bubbles:true}));
+		$("#range1").val(rangoCalculo);
+		$("#labelRange1").html(rangoCalculo);
+		range1.dispatchEvent(new Event('input', {bubbles:true}));
 
 		}
 			   
@@ -81,7 +81,8 @@ calculoAlto = document.getElementById("calculoAlto");
 
 
 
-	 $("#range").change(function(){    detect();	});
+	 $("#range1").change(function(){    detect();	});
+ 	 $("#range2").change(function(){    detect();	});
 
 
 });

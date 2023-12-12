@@ -28,7 +28,6 @@ h2 {
 }
 
 input[type='range'] {
-  width: 300px;
   margin: 18px 0;
   -webkit-appearance: none;
 }
@@ -42,6 +41,7 @@ input[type='range'] + label {
   position: absolute;
   top: -25px;
   left: 110px;
+  margin-left: 14px;
   width: 80px;
   padding: 5px 0;
   text-align: center;
