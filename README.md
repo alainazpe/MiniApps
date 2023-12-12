@@ -3,19 +3,23 @@ MiniApps For Fun
 
 Try it! https://alainazpe.github.io/MiniApps/
 
-Home:
+🏘️ Home:
 
 ![1](https://github.com/alainazpe/MiniApps/assets/34461201/bdb5d1f3-c17f-4f25-a945-12171a50b07f)
 
-Calculadora dimensiones:
+↗️ Calculadora dimensiones:
 
 ![2](https://github.com/alainazpe/MiniApps/assets/34461201/d89e5ac2-aa05-47a2-97bf-187c5298677e)
 
-Github:
+🎶 Calculadora de tiempo musical:
+
+![image](https://github.com/alainazpe/MiniApps/assets/34461201/e4ca8d12-f96e-4ea7-96d9-1a5da2c69971)
+
+💻 Github:
 
 ![3](https://github.com/alainazpe/MiniApps/assets/34461201/48e6d8c1-1ac3-4bd1-955c-3c632d8c6212)
 
-Acerca de:
+🌐 Acerca de:
 
 ![4](https://github.com/alainazpe/MiniApps/assets/34461201/37ef7b1a-231f-47e6-9c62-229fca9894eb)
 
