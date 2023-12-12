@@ -25,34 +25,44 @@ Try it! https://alainazpe.github.io/MiniApps/
 
 
 Esta aplicación utiliza:
+--------------
 
- alainazp/Calculadora dimensiones 
+alainazpe/Calculadora dimensiones y Calculadora tiempo musical 
 
 MIT License
 
- mafud/jqbtk
+---------------
+
+mafud/jqbtk
  
 GNU GENERAL PUBLIC LICENSE
 
- bradtraversy/50projects50days
+---------------
+
+bradtraversy/50projects50days
 MobileTabNavigation
 CustomRangeSlider
 
 The MIT License
-Copyright (c) 20202021 Traversy Media https://traversymedia.com
+Copyright (c) 2020-2021 Traversy Media https://traversymedia.com
 
- JQuery
+----------------
+
+JQuery
  
- MIT License
-
- Bootstrap 3
+MIT License
  
- MIT License
+---------------
 
- Font Awesome Free 5.14.0
+Bootstrap 3
+ 
+MIT License
+ 
+---------------
+
+Font Awesome Free 5.14.0
 by @fontawesome 
 
 https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 
-
-
+---------------
